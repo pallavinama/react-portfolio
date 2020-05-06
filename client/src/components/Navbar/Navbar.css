@@ -1,0 +1,20 @@
+/* NAV START */
+#logo {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .navbar {
+    background: yellowgreen;
+    border: none;
+  }
+  
+  .nav-link {
+    color: white;
+  }
+  
+  .nav-link:hover {
+    color: #EBEBEB;
+  }

@@ -21,7 +21,8 @@
   "homepage": "https://github.com/pallavinama/react-portfolio#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "react-router-dom": "^5.1.2"
   },
   "devDependencies": {
     "concurrently": "^5.2.0"
