@@ -1,0 +1,37 @@
+.footer {
+   
+    position: absolute;
+    bottom: 0;
+  
+  
+    width: 100%;
+    height: 60px;
+  
+    /* Visual */
+    /* background-color: #4C1B30; */
+    background-color: yellowgreen
+
+  }
+  
+  .text-muted-footer {
+    
+    margin-top: 15px;
+  
+ 
+    color: #fff;
+  }
+  
+  .two-toned-footer-color {
+    /* Box-model */
+    height: 6px;
+    padding-top: 3px;
+  
+    /* Visual */
+    /* background-color: #041E3C; */
+    background-color: grey;
+  }
+  
+  .footer-text {
+    color: white;
+    margin-top: 15px;
+  }
