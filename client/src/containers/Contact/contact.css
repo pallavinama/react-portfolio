@@ -1,0 +1,36 @@
+.form-control {
+    
+    border-radius: 0;
+  
+    min-width: 100%;
+    max-width: 100%;
+  }
+  
+  .submit-btn {
+   
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: lighter;
+  
+  
+    color: #fff;
+  
+    /* Visual */
+    /* background-color: #4C1B30; */
+    background-color: grey;
+    border: 0;
+  }
+  
+  .submit-btn:hover {
+    opacity: .7;
+  }
+
+  .contacts {
+    /* color: #041E3C; */
+    color: rgb(50, 60, 4);
+  }
+  
+  .contacts:hover {
+    color: #4C1B30;
+    color: #041E3C;
+  }

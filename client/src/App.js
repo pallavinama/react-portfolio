@@ -4,6 +4,7 @@ import logo from './logo.svg';
 import './App.css';
 import About from "./containers/About/About";
 import Navbar from "./components/Navbar/Navbar";
+import Contact from "./containers/Contact/Contact";
 
 const App = () => {
   return (
@@ -11,8 +12,8 @@ const App = () => {
       <div>
         <Navbar />
         <Route exact path="/" component={About} />
-        {/* <Route exact path="/portfolio" component={Portfolio} />
-        <Route exact path="/contact" component={Contact} /> */}
+        {/* {/* <Route exact path="/portfolio" component={Portfolio} /> */}
+        <Route exact path="/contact" component={Contact} /> 
         {/* <Footer /> */}
       </div>
     </Router>
