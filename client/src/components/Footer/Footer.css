@@ -34,4 +34,6 @@
   .footer-text {
     color: white;
     margin-top: 15px;
+    /* align-content: center; */
+    text-align: center;
   }

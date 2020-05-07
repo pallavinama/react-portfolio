@@ -23,12 +23,15 @@ const About = () => {
             
           </article>
 
-                {/* <a id="resume" class="btn btn-dark" href={resume} download>Resume</a> */}
+               
                <a id="linkedin" type="button" className="btn btn-dark" href="https://www.linkedin.com/in/pallavinama/" target="_blank">LinkedIn</a>
                <br></br>
                <a id="github" type="button" className="btn btn-dark" href="https://github.com/pallavinama" target="_blank">GitHub</a>
                <br></br>
                <a id="Resume" type="button" className="btn btn-dark" href="" target="_blank">Resume</a>
+               <br></br>
+               <a id="Email:" type="button" className="btn btn-dark" 
+               href="mailto:pallavi_nama@yahoo.com" target="_blank">Email: pallavi_nama@yahoo.com</a>
                <br></br>
                <a id="Phone Number" className="contacts" class="btn btn-dark">Phone Number: (404) 324-3519 </a>
            
