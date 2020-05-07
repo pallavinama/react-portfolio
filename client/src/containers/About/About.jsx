@@ -1,11 +1,12 @@
 import React from "react";
 import "./About.css";
+// import resume from "../src/images/resume.pdf";
 
 const About = () => {
   return (
     <main className="container">
       <section className="row">
-        <div className="col-md-4">
+        <div className="col-md-8">
           <article className="block">
             <h1 className="block-header">About Me</h1>
             <hr />
@@ -21,38 +22,22 @@ const About = () => {
             </p>
             
           </article>
+
+                {/* <a id="resume" class="btn btn-dark" href={resume} download>Resume</a> */}
+               <a id="linkedin" type="button" className="btn btn-dark" href="https://www.linkedin.com/in/pallavinama/" target="_blank">LinkedIn</a>
+               <br></br>
+               <a id="github" type="button" className="btn btn-dark" href="https://github.com/pallavinama" target="_blank">GitHub</a>
+               <br></br>
+               <a id="Resume" type="button" className="btn btn-dark" href="" target="_blank">Resume</a>
+               <br></br>
+               <a id="Phone Number" className="contacts" class="btn btn-dark">Phone Number: (404) 324-3519 </a>
+           
+              
+
+
+
         </div>
-        <div className="col-8">
-          {/* <br /> */}
-          <a href="https://github.com/pallavinama" className="contacts">
-            <p>
-              <i className="fab fa-github"></i> Github
-            </p>
-          </a>
-          <a
-            href="https://www.linkedin.com/in/pallavinama/"
-            className="contacts">
-            <p>
-              <i className="fab fa-linkedin"></i> LinkedIn
-            </p>
-          </a>
-          <a href="mailto:pallavi_nama@yahooo.com" className="contacts">
-            <p>
-              <i className="fas fa-envelope"></i> pallavi_nama@yahoo.com
-            </p>
-          </a>
-          {/* <p className="contacts">
-            <i className="fas fa-phone"></i> (404) 324-3519
-          </p> */}
-          <a
-            href="resume"
-            className="contacts"
-          >
-            <p>
-              <i className="fas fa-file-alt"></i> Resume
-            </p>
-          </a>
-        </div>
+        
       </section>
     </main>
   );
